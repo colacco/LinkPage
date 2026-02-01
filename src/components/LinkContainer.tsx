@@ -19,20 +19,20 @@ export default function LinkContainer() {
                 secondColor="#F2A74B"
             />
             <ExternalLink
-                link="https://github.com/colacco"
-                alt={t("linkcontainer.altgithub")}
-                image={gitHubIcon}
-                description={t("linkcontainer.descgithub")}
-                mainColor="#262626"
-                secondColor="#595959"
-            />
-            <ExternalLink
                 link="https://linkedin.com/in/gabriel-colacco"
                 alt={t("linkcontainer.altlinkedin")}
                 image={linkedInIcon}
                 description={t("linkcontainer.desclinkedin")}
                 mainColor="#035AA6"
                 secondColor="#0511F2"
+            />
+            <ExternalLink
+                link="https://github.com/colacco"
+                alt={t("linkcontainer.altgithub")}
+                image={gitHubIcon}
+                description={t("linkcontainer.descgithub")}
+                mainColor="#262626"
+                secondColor="#595959"
             />
         </section>
     );

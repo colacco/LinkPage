@@ -27,7 +27,7 @@ export default function LinkContainer() {
                 secondColor="#595959"
             />
             <ExternalLink
-                link="https://www.linkedin.com/in/gabriel-colacco/"
+                link="https://linkedin.com/in/gabriel-colacco"
                 alt={t("linkcontainer.altlinkedin")}
                 image={linkedInIcon}
                 description={t("linkcontainer.desclinkedin")}

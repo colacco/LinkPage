@@ -1,16 +1,16 @@
 {
     "header": {
-        "language":{
+        "language": {
             "alt": "Bandeira do Brasil"
         }
     },
-    "about":{
+    "about": {
         "desc": "Desenvolvedor Full Stack"
     },
-    "linkcontainer":{
-        "altpomodoroinu": "Logo do site PomodoroInu",
+    "linkcontainer": {
+        "altPomodoroInu": "Logo do site PomodoroInu",
         "descpomodoroinu": "Pomodoro Inu - Website",
-        "altlinkedin": "Ícone de perfil do Linkedin",
+        "altlinkedin": "Ícone de perfil do LinkedIn",
         "desclinkedin": "Perfil no LinkedIn",
         "altgithub": "Ícone de perfil do GitHub",
         "descgithub": "Perfil no GitHub"

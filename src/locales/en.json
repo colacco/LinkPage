@@ -1,14 +1,14 @@
 {
     "header": {
-        "language":{
+        "language": {
             "alt": "United States flag"
         }
     },
-    "about":{
+    "about": {
         "desc": "Full Stack Developer"
     },
-    "linkcontainer":{
-        "altpomodoroinu": "PomodoroInu's website icon",
+    "linkcontainer": {
+        "altPomodoroInu": "PomodoroInu's website icon",
         "descpomodoroinu": "Pomodoro Inu - Website",
         "altlinkedin": "LinkedIn profile icon",
         "desclinkedin": "LinkedIn Profile",

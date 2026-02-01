@@ -1,30 +1,32 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import usFlag from "../../public/header/language/eua.png";
-import brFlag from "../../public/header/language/brazil.png";
+import usFlag from "/language/eua.png";
+import brFlag from "/language/brazil.png";
 
 export default function Language() {
-    const [ checked, setChecked ] = useState(false); 
-    const [ t, i18n ] = useTranslation();
+    const { t, i18n } = useTranslation();
+    const [checked, setChecked] = useState(i18n.language.startsWith("pt"));
 
-    useEffect(() => {
-        i18n.changeLanguage(i18n.language === "en" ? "pt" : "en")
-    }, [ checked, i18n ]);
+    const handleToggle = () => {
+        const newLang = i18n.language.startsWith("en") ? "pt" : "en";
+        i18n.changeLanguage(newLang);
+        setChecked(newLang === "pt");
+    };
 
-    return(
+    return (
         <label htmlFor="theme">
             <input
-                id="theme" 
-                type="checkbox" 
+                id="theme"
+                type="checkbox"
                 checked={checked}
-                onClick={() => setChecked(!checked)}
+                onChange={handleToggle}
                 className="hidden"
             />
             <motion.img
                 whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.8 }} 
-                src={checked ? brFlag : usFlag} 
+                whileTap={{ scale: 0.8 }}
+                src={checked ? brFlag : usFlag}
                 alt={t("header.language.alt")}
                 width={30}
                 className="cursor-pointer lg:w-[40px]"

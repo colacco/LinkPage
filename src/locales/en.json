@@ -1,3 +1,18 @@
 {
-    "home": "Works!"
+    "header": {
+        "language":{
+            "alt": "United States flag"
+        }
+    },
+    "about":{
+        "desc": "Full Stack Developer"
+    },
+    "linkcontainer":{
+        "altpomodoroinu": "PomodoroInu's website icon",
+        "descpomodoroinu": "Pomodoro Inu - Website",
+        "altlinkedin": "LinkedIn profile icon",
+        "desclinkedin": "LinkedIn Profile",
+        "altgithub": "GitHub profile icon",
+        "descgithub": "GitHub Profile"
+    }
 }

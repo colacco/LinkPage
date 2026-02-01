@@ -1,12 +1,16 @@
-import { useTranslation } from "react-i18next"
+import Header from "./components/Header";
+import About from "./components/About";
+import LinkContainer from "./components/LinkContainer";
 
 function App() {
-  const { t, i18n } = useTranslation();
 
   return (
     <>
-      <p>{ t("home") }</p>
-      <button onClick={() => i18n.changeLanguage(i18n.language === "en" ? "pt" : "en")}></button>
+      <Header/>
+      <main className="mt-10 flex flex-col gap-12">
+        <About/>
+        <LinkContainer/>
+      </main>
     </>
   )
 }

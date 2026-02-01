@@ -1,3 +1,18 @@
 {
-    "home": "Funciona!"
+    "header": {
+        "language":{
+            "alt": "Bandeira do Brasil"
+        }
+    },
+    "about":{
+        "desc": "Desenvolvedor Full Stack"
+    },
+    "linkcontainer":{
+        "altpomodoroinu": "Logo do site PomodoroInu",
+        "descpomodoroinu": "Pomodoro Inu - Website",
+        "altlinkedin": "Ícone de perfil do Linkedin",
+        "desclinkedin": "Perfil no LinkedIn",
+        "altgithub": "Ícone de perfil do GitHub",
+        "descgithub": "Perfil no GitHub"
+    }
 }
